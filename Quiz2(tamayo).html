@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <style>
+
+.navbar1{
+    display: flex; 
+    align-items: center;
+    background-color: rgb(17, 13, 131);
+    color: aliceblue;
+    height: 40px;
+
+}
+.navlinks1
+{
+    list-style: none;
+    display: flex;
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.navlinks1 li a
+{
+    text-decoration: none;
+    color: aliceblue; 
+    font-size: 13px;
+    margin-left: 10px;
+}
+.navbar2
+{
+     display: flex; 
+     align-items: center;
+}
+.logo
+{
+    color: rgb(59, 31, 0);
+    font-size: 30px;
+    font-weight: bold;
+}
+.navlinks
+{
+    list-style: none;
+    display: flex;
+    font-weight: bold;
+    margin-left: 300px;
+
+}
+.navlinks li
+{
+margin-left: 20px;
+
+}
+.navlinks li a
+{
+    text-decoration: none;
+    color: black; 
+    font-size: 20px;
+    margin-left: 5px;
+    font-size: 13px;
+
+}
+.sel
+{
+    text-decoration: none;
+    color: black; 
+    font-size: 13px;
+    border-radius: 10px;
+    font-weight: bold; 
+    border: 2px solid rgb(255, 255, 255);
+    width: 150px;
+}
+.sel option
+{
+    font-weight: bold;
+}
+
+
+.slider 
+  {
+  position: relative;
+
+  overflow: hidden;
+}
+.slides
+ {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+ 
+}
+.slide {
+  width: 800px;
+  height: 400px;
+  object-fit: cover;
+}
+button
+    {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgb(255, 255, 255);
+        color: black;
+        border: none;
+        padding: 5px;
+        
+    }
+.prev
+{
+left: 10px
+}
+.next
+{
+right: 10px;
+}
+
+    </style>
+                                                        <!--top Nav Bar-->
+
+<nav class="navbar1" style="margin-top: 5px;">
+
+    <ul class="navlinks1">
+
+        <div class="navlinks1" style="margin-left:270px ; margin-right: 50px; ">
+        <li> Email####@gmail.com </li>
+        <li> -Contact-Number- </li>
+        </div>
+    <div class="navlinks1" style="margin-left: 200px; ">
+        <li> <a href=""> Student File? </a> </li>
+        <li> <a href=""> Falculty File? </a> </li>
+        <li> <a href=""> Classroom Schedule </a></li>
+        <div class="medialogo">
+            <img src="images/6.jpg" width="20px" height="20px">
+            <img src="images/7.jpg" width="20px" height="20px">
+            <img src="images/8.jpg" width="20px" height="20px">
+            <img src="images/9.jpg" width="20px" height="20px">
+        </div>
+        <div> <input type="button" value="Apply Online"> </div> <!-- APPLY ONLINE BUTTON WORK ON LATER PLEASE-->
+    </div>
+    </ul>
+</nav>
+
+<div><img src="images/4.jpg" style= "width:200px; height:50px; margin-top: 5px; margin-left: 600px;" ></div>
+
+<hr>
+    <nav class="navbar2">
+        <ul class="navlinks">
+        <li> <a href="#">Home </a> </li>
+        <li> <a href="#">Admissions </a> </li>
+        <li> <a href="#">Our Faculty </a> </li>
+        <li> <a href="#">QEC </a> </li>
+        <li> <a href="#">Students Facilities </a> </li>
+        <li> <a href="#"> Campus Gallery</a> </li>
+        <li> <a href="#">Library</a> </li>
+        <li> <a href="#">Contact Us </a> </li>
+        <li>
+        <select class="sel">
+            <option value="">HTML 🤯</option>
+            <option value="">CSS 😒</option>
+            <option value="">Chemistry 🤑</option>
+            <option value="">Home Economics 🍆</option>
+        </select>
+        </li>
+        </ul>
+
+    </nav>
+
+
+
+
+                                    <!--Ads + Main page Bar-->
+
+<div style="width: 100%; height:500px; background-color: rgb(68, 118, 255);
+border: 2px solid rgb(0, 0, 0); margin-top: 0px; margin-right: 100px; position: relative; ">
+    
+    <div class="slider">
+
+        <div class="slides">
+            <img src="images/6.jpg" class="slide" style="height: 500px; width:600px;">
+             <img src="images/7.jpg" class="slide" style="height: 500px; width:600px;">
+              <img src="images/8.jpg" class="slide" style="height: 500px; width:600px;">
+               <img src="images/9.jpg" class="slide" style="height: 500px; width:600px;">
+                <img src="images/10.jpg" class="slide" style="height: 500px; width:600px;">
+        </div>
+        <button class="prev">  &#10094 </button>
+         <button class="next"> &#10095 </button>
+
+    </div> 
+
+
+<div 
+style="width: 600px; height: 500px; background-color:rgb(255, 255, 255);
+margin-left:400px ; font-size: 18px; position: absolute; margin-top: -40px;"> 
+<div style="list-style: none; display: flex;">
+
+<p style="margin:20px ;"> <img src="images/5.jpg" width="20px" height="20px">University Life</p>
+<p style="margin:20px ;"> <img src="images/4.jpg" width="20px" height="20px">Graduation</p>
+<p style="margin:20px ;"> <img src="images/3.jpg" width="20px" height="20px">Athletics</p>
+<p style="margin:20px ;"> <img src="images/2.jpg" width="20px" height="20px">Social</p>
+</div>
+
+<div style="list-style: none; display: flex;">
+<div style=" height: 300px; width: 50%;"> <h4>WHY FAST</h4>
+    <p>This video is for educational purposes. The events described and shown are historically/artistically significant and the content should be treated as a comprehensive recollection/analysis of events. The actions mentioned are in no way condoned or acceptable to myself or those who featured in the creation of this video. Any events or images depicted are artificial and in no way condone behavior of similar category. Please view responsibly, viewer discretion is advised.
+</p></div>
+<br>
+<div style=" height: 300px; width: 50%;"> <iframe src="https://www.youtube.com/watch?v=UL7_mLgVbpg" frameborder="0"> video here </iframe></div>
+</div>
+
+<div></div>
+
+</div>
+
+
+</div>
+<div style="clear: both;"></div>
+<!-- https://www.aptechproconnect.com/login -->
+
+
+
+
+
+<div style="clear: both;"></div>
+
+<script>
+//ScriptScriptScriptScriptScriptScriptScriptScriptScriptScriptScriptScriptScriptScriptScriptScriptScriptScriptScriptScriptScript
+
+
+const slides = document.querySelector('.slides');
+const slide = document.querySelectorAll('.slide');
+
+const nextBtn = document.querySelector('.next');
+const prevBtn = document.querySelector('.prev');
+
+let index = 0;
+const totalSlides = slide.length;
+
+function showSlide() 
+{
+  slides.style.transform = `translateX(${-index * 800}px)`;
+}
+
+nextBtn.addEventListener('click', () => 
+{
+  index++;
+  if (index >= totalSlides) index = 0;
+  showSlide();
+});
+
+prevBtn.addEventListener('click', () => 
+{
+  index--;
+  if (index < 0) index = totalSlides - 1;
+  showSlide();
+});
+
+setInterval(() => {
+  index = (index + 1) % totalSlides;
+  showSlide();
+}, 3000);
+
+
+                        //slider logic appearantly
+
+
+var intervalId;
+function StartImageShow()
+{
+    intervalId = setInterval(setImage, 3000)
+}
+
+function StopImageShow()
+{
+    clearInterval(intervalId)
+}
+
+function setImage()
+{
+    var imageScr = document.getElementById("image").getAttribute("src")
+    var currentImageNumber = imageScr.substring(imageScr.lastIndexOf("/") + 1,
+                                                imageScr.lastIndexOf("/")+ 2);
+    if (currentImageNumber == 5)
+{
+    currentImageNumber = 1;
+}
+    document.getElementById("image").setAttribute("src", "images/" +
+    (Number(currentImageNumber)+1) + ".jpg");
+    
+
+
+ var imageScr1 = document.getElementById("image1").getAttribute("src")
+    var currentImageNumber1 = imageScr1.substring(imageScr1.lastIndexOf("/") + 1,
+                                                imageScr1.lastIndexOf("/")+ 2);
+    if (currentImageNumber1 == 5)
+{
+    currentImageNumber1 = 1;
+}
+    document.getElementById("image1").setAttribute("src", "images/" +
+    (Number(currentImageNumber1)+1) + ".jpg");
+
+}
+StartImageShow();
+
+
+</script>
+
+</body>
+</html>
