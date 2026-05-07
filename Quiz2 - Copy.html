@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar
+{
+    display: flex;
+    align-items: center;
+    background-color:  rgb(200, 100, 202);
+
+}
+.logo
+{
+    color: rgb(198, 229, 60);
+    font-size: 30px;
+    font-weight: bold;
+   
+}
+.nav-links
+{
+    list-style: none;
+    display: flex;
+    font-weight: bold;
+}
+.nav-links li
+{
+margin-left: 70px;
+}
+.nav-links li a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.sel 
+{
+    width: 100px;
+    height: 30px;
+    background-color: rgba(195, 78, 199, 0.753);
+    border-radius: 10px;
+    font-size: 15px;
+    border: 2px solid  rgb(200, 100, 202);
+    font-weight: bold;
+}
+.sel option
+{
+    font-weight: bold;
+  
+}
+
+
+
+  .slider 
+  {
+  position: relative;
+
+  overflow: hidden;
+}
+.slides
+ {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+ 
+}
+.slide {
+  width: 800px;
+  height: 400px;
+  object-fit: cover;
+}
+    button
+    {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: antiquewhite;
+        color: black;
+        border: none;
+        padding: 10px;
+    }
+.prev
+{
+left: 10px
+}
+.next
+{
+right: 10px;
+}
+
+    </style>
+
+    <nav class="navbar">
+        <div class="logo"> <img src="R34.png" alt="" width="50" height="50"> ~ Allan </div>
+
+        <ul class="nav-links"> 
+            <li> <a href="#"> Home </a></li>
+             <li> <a href="https://en.wikipedia.org/wiki/Website"> About </a></li>
+              <li> <a href="#"> Admission </a></li>
+               <li> <a href="#"> Policies </a></li>  
+    </li>
+        </ul>
+        <input type="text" placeholder="Search...." style="width: 300px; 
+        height: 40px; border-radius: 10px;
+        margin-left: 120px;">
+
+        <input type="submit" style="width: 70px; height: 40px; 
+        border-radius: 10px;background-color: rgb(28, 240, 91);font-size: 20px;">
+    </nav>
+<br><br> <br>
+
+<div style = "width: 1300px; height: 600px; border: 2px solid rgb(2, 205, 124);
+ float: right; margin-right: 60px;">
+
+<div class="slider">
+
+        <div class="slides">
+            <img src="R31.png" class="slide" style="width: 1300px; height: 600px;">
+        </div>
+        <button class="prev">  &#10094 </button>
+         <button class="next"> &#10095 </button>
+
+    </div>
+
+</div>
+
+<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/T1FtBDMiVSU?si=BLJjpo__y4EceDso"
+  title="YouTube video player" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen>
+</iframe>
